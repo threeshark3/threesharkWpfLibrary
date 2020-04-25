@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "threesharkWpfLibrarySample", "threesharkWpfLibrarySample\threesharkWpfLibrarySample.csproj", "{D5C07FE2-01E2-4B11-96E3-821DB427DC53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "threesharkWpfLibrary", "threesharkWpfLibrary\threesharkWpfLibrary.csproj", "{142B6118-9A2F-4E20-A3E6-1EEF7E4B2E07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5C07FE2-01E2-4B11-96E3-821DB427DC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C07FE2-01E2-4B11-96E3-821DB427DC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C07FE2-01E2-4B11-96E3-821DB427DC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C07FE2-01E2-4B11-96E3-821DB427DC53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142B6118-9A2F-4E20-A3E6-1EEF7E4B2E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142B6118-9A2F-4E20-A3E6-1EEF7E4B2E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142B6118-9A2F-4E20-A3E6-1EEF7E4B2E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142B6118-9A2F-4E20-A3E6-1EEF7E4B2E07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F06CA5E-48FF-4989-A20F-E9FAD9D67E04}
+	EndGlobalSection
+EndGlobal
