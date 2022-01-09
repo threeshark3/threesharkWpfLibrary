@@ -23,6 +23,31 @@ namespace threesharkWpfLibrarySample
         public MainWindow()
         {
             InitializeComponent();
+
+            Hoge.Content = new Person()
+            {
+                Name = "あああ",
+                Age = 20,
+            };
         }
+
+        Random random = new Random(0);
+
+        private void ResetButton_Click(object sender, RoutedEventArgs e)
+        {
+            //Hoge.Content = new Person()
+            //{
+            //    Name = System.IO.Path.GetRandomFileName(),
+            //    Age = this.random.Next(100),
+            //};
+            Hoge.Content = new System.IO.FileInfo(@"D:\Users\threeshark\source\gitrepos\threesharkWpfLibrary\threesharkWpfLibrary.sln");
+        }
+    }
+
+    public class Person
+    {
+        public string Name { get; set; }
+
+        public int Age { get; set; }
     }
 }

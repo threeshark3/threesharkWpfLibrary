@@ -5,11 +5,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:threesharkWpfLibrarySample"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ts="clr-namespace:threesharkWpfLibrary.Controls;assembly=threesharkWpfLibrary"
     Title="MainWindow"
     Width="800"
     Height="450"
     mc:Ignorable="d">
     <DockPanel>
-        <Button Content="テスト" />
+        <Button Content="テスト" DockPanel.Dock="Top"
+                x:Name="ResetButton"
+                Click="ResetButton_Click"/>
+        <ts:GeneralEditor x:Name="Hoge"/>
     </DockPanel>
 </Window>

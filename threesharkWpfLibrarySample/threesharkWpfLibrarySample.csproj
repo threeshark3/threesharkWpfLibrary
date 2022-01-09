@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\threesharkWpfLibrary\threesharkWpfLibrary.csproj">
+      <Project>{142b6118-9a2f-4e20-a3e6-1eef7e4b2e07}</Project>
+      <Name>threesharkWpfLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

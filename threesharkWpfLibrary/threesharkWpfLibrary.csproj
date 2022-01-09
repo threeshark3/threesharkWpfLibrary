@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Behaviors\DataGridSelectedItemsProxyBehavior.cs" />
+    <Compile Include="Controls\GeneralEditor.cs" />
     <Compile Include="Extensions\VisualTreeHelperWrapper.cs" />
     <Page Include="Themes\Generic.xaml">
       <Generator>MSBuild:Compile</Generator>
