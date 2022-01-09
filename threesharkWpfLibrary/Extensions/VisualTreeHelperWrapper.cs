@@ -4,7 +4,7 @@ using System.Text;
 using System.Windows;
 using System.Windows.Media;
 
-namespace threesharkWpfLibrary
+namespace threesharkWpfLibrary.Extensions
 {
     public static class VisualTreeHelperWrapper
     {

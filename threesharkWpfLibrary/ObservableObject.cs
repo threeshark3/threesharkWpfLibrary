@@ -18,8 +18,13 @@ namespace threesharkWpfLibrary
             }
 
             field = value;
-            this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            this.OnPropertyChanged(propertyName);
             return true;
+        }
+
+        protected void OnPropertyChanged(string propertyName)
+        {
+            this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace threesharkWpfLibrary
+namespace threesharkWpfLibrary.Behaviors
 {
     public class DataGridSelectedItemsProxyBehavior : Behavior<DataGrid>
     {
@@ -19,7 +19,8 @@ namespace threesharkWpfLibrary
             DependencyProperty.Register(nameof(SelectedItemsProxy), 
                 typeof(IEnumerable), 
                 typeof(DataGridSelectedItemsProxyBehavior), 
-                new FrameworkPropertyMetadata(Enumerable.Empty<object>()));
+                new FrameworkPropertyMetadata(Enumerable.Empty<object>(),
+                    FrameworkPropertyMetadataOptions.BindsTwoWayByDefault));
 
         protected override void OnAttached()
         {
